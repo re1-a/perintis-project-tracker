@@ -1,7 +1,7 @@
 {
   "title": "Projek Laporan Perkembangan Murid",
   "centre": "Perintis Didik",
-  "updatedAt": "2026-11-14T14:32:41.966096+00:00",
+  "updatedAt": "2026-11-14T14:48:01.848115+00:00",
   "phases": [
     {
       "title": "Tetapkan keperluan",
@@ -93,14 +93,14 @@
     {
       "id": "cara-input",
       "title": "Tentukan cara input paling mudah",
-      "description": "Selepas melihat contoh rekod, pilih cara paling ringan. Jika Excel/Sheets sudah ada, guna terus. Jika rekod satu kelas dalam buku/kertas, uji gambar satu halaman ke Drive dan semakan bacaan oleh Rezz/admin. Jika tiada rekod kelas, pertimbangkan Sheet kelas atau Form ringkas. Drive + Sheets ialah cadangan asas; akses, fail dan automation belum disediakan.",
+      "description": "Selepas melihat contoh rekod, pilih cara paling ringan. Jika Excel/Sheets sudah ada, guna terus. Jika rekod satu kelas dalam buku/kertas, uji gambar satu halaman ke Drive dan semakan bacaan oleh Rezz/admin. Jika tiada rekod kelas, pertimbangkan Sheet kelas atau Form ringkas. Drive + Sheets ialah cadangan asas; akses, fail dan automation belum disediakan. Pilihan tambahan: uji helaian jawapan berasingan untuk satu latihan pendek dengan jumlah markah di bahagian atas; bandingkan bilangan halaman dan usaha dengan rekod kelas. Cara ini belum dipilih sebagai wajib.",
       "owner": "rezz",
       "status": "waiting",
       "priority": "utama",
       "phase": 2,
       "dueDate": null,
       "createdAt": "2026-11-14T11:11:16.041Z",
-      "updatedAt": "2026-11-14T14:32:41.966096+00:00"
+      "updatedAt": "2026-11-14T14:48:01.848115+00:00"
     },
     {
       "id": "draft-report",
@@ -129,14 +129,14 @@
     {
       "id": "test",
       "title": "Uji aliran dan semak hasil bersama",
-      "description": "Uji ketepatan pemindahan markah, masa cikgu dan kerja semakan Rezz/admin. Jika menggunakan gambar buku markah, uji nama/kod murid, markah penuh dan markah diperoleh pada satu contoh rekod kelas dahulu. Bacaan kabur mesti ditanda untuk semakan. Cikgu tidak diwajibkan tag kemahiran setiap soalan; rumusan akademik dirujuk kepada cikgu jika perlu.",
+      "description": "Uji ketepatan pemindahan markah, masa cikgu dan kerja semakan Rezz/admin. Jika menggunakan gambar buku markah, uji nama/kod murid, markah penuh dan markah diperoleh pada satu contoh rekod kelas dahulu. Bacaan kabur mesti ditanda untuk semakan. Cikgu tidak diwajibkan tag kemahiran setiap soalan; rumusan akademik dirujuk kepada cikgu jika perlu. Jika helaian jawapan diuji, semak keselesaan murid, ruang kerja mengira, padanan nombor soalan, masa menanda dan jumlah halaman scan; benarkan dua muka surat jika perlu.",
       "owner": "bersama",
       "status": "backlog",
       "priority": "normal",
       "phase": 4,
       "dueDate": null,
       "createdAt": "2026-11-14T11:11:16.041Z",
-      "updatedAt": "2026-11-14T14:32:41.966096+00:00"
+      "updatedAt": "2026-11-14T14:48:01.848115+00:00"
     },
     {
       "id": "go-live",
@@ -149,9 +149,29 @@
       "dueDate": null,
       "createdAt": "2026-11-14T11:11:16.041Z",
       "updatedAt": "2026-11-14T11:11:16.041Z"
+    },
+    {
+      "id": "uji-helaian-jawapan",
+      "title": "Bandingkan helaian jawapan dengan rekod markah kelas",
+      "description": "Cadangan ujian, belum dijalankan: guna satu latihan pendek Matematik Tahun 4. Nilai helaian jawapan berasingan dengan ruang mengira, kod murid/latihan, nombor soalan dan kotak jumlah markah di atas. Benarkan dua muka surat jika diperlukan. Semak keselesaan murid, masa cikgu menanda, jumlah halaman scan dan ketepatan bacaan markah muka depan. Bandingkan dengan mengambil rekod markah satu kelas. Tiada syarat menukar semua latihan sebelum ujian ini berjaya.",
+      "owner": "bersama",
+      "status": "backlog",
+      "priority": "normal",
+      "phase": 2,
+      "dueDate": null,
+      "createdAt": "2026-11-14T14:48:01.848115+00:00",
+      "updatedAt": "2026-11-14T14:48:01.848115+00:00"
     }
   ],
   "notes": [
+    {
+      "id": "separate-answer-sheet",
+      "kind": "decision",
+      "title": "Masukkan pilihan helaian jawapan berasingan dalam proses",
+      "content": "Rezz meminta cadangan helaian jawapan dimasukkan untuk dinilai. Untuk latihan pendek, cuba satu helaian bagi setiap murid dengan ruang kerja mengira, kod murid, kod latihan dan nombor soalan yang jelas. Cikgu tanda seperti biasa dan isi kotak jumlah markah pada bahagian atas. Benarkan dua muka surat jika perlu; jangan memaksa semua jawapan muat satu muka. Kertas soalan disimpan sekali bagi setiap set latihan. Untuk laporan ringkas, bacaan utama boleh menggunakan muka depan yang mempunyai tajuk latihan, tarikh, kod murid dan jumlah markah. Pilihan ini masih perlu dibandingkan dengan rekod markah kelas, dan belum diluluskan atau diuji bersama Cikgu Awan.",
+      "author": "Rezz",
+      "date": "2026-11-14T14:48:01.848115+00:00"
+    },
     {
       "id": "drive-sheets-process",
       "kind": "decision",
@@ -207,7 +227,7 @@
       "actor": "Cikgu",
       "type": "teacher",
       "summary": "Semak jawapan dan beri markah seperti biasa.",
-      "detail": "Cikgu membuat pemarkahan. Sistem tidak menggantikan pertimbangan cikgu atau menanda jawapan murid secara automatik.",
+      "detail": "Cikgu membuat pemarkahan. Sistem tidak menggantikan pertimbangan cikgu atau menanda jawapan murid secara automatik. Jika pilihan helaian jawapan digunakan, murid menjawab pada helaian berasingan dan cikgu menanda seperti biasa. Ini perlu diuji pada satu latihan pendek; jangan sempitkan ruang mengira untuk memaksa satu muka surat.",
       "input": "Kertas atau hasil latihan murid.",
       "output": "Markah dan komen yang sudah ditanda cikgu.",
       "pending": "Perlu contoh rekod atau kertas bertanda tanpa identiti murid.",
@@ -228,11 +248,11 @@
       "title": "Ambil rekod sedia ada",
       "actor": "Cikgu / admin",
       "type": "teacher",
-      "summary": "Guna Sheet terus, atau gambar rekod kelas.",
-      "detail": "Jika markah sudah dalam Excel/Google Sheets, guna rekod itu terus. Jika dalam buku/senarai kertas, cadangan ialah gambar atau scan satu halaman rekod kelas ke Drive. Jika belum ada rekod kelas, pilih Sheet kelas atau Form ringkas yang sesuai. Tiada syarat scan semua kertas murid atau tag kemahiran setiap soalan.",
-      "input": "Tajuk latihan/topik jika ada, tarikh, nama/kod murid, markah diperoleh dan penuh.",
-      "output": "Fail digital sedia ada atau imej rekod kelas dalam Drive untuk diproses.",
-      "pending": "Cara input akhir dipilih selepas contoh rekod dilihat.",
+      "summary": "Guna rekod kelas atau uji helaian jawapan.",
+      "detail": "Jika markah sudah dalam Excel/Google Sheets, guna rekod itu terus. Jika dalam buku/senarai kertas, cadangan ialah gambar atau scan satu halaman rekod kelas ke Drive. Jika belum ada rekod kelas, pilih Sheet kelas atau Form ringkas yang sesuai. Tiada syarat scan semua kertas murid atau tag kemahiran setiap soalan. Pilihan tambahan untuk diuji: satu helaian jawapan bagi setiap murid untuk latihan pendek, dengan kod murid, kod latihan, nombor soalan dan kotak jumlah markah di atas. Dua muka surat dibenarkan jika perlu. Kertas soalan disimpan sekali untuk set latihan; tidak perlu mengimbas semua halaman soalan setiap murid. Untuk ringkasan markah, baca muka depan yang ada tajuk, tarikh dan jumlah markah. Bandingkan usaha scan helaian setiap murid dengan rekod markah satu kelas.",
+      "input": "Rekod kelas sedia ada, atau helaian jawapan yang diuji: kod murid/latihan, tajuk/topik jika ada, tarikh dan markah diperoleh/penuh.",
+      "output": "Fail digital, imej rekod kelas atau muka depan helaian jawapan untuk diproses.",
+      "pending": "Bandingkan rekod kelas dengan helaian jawapan pada satu latihan pendek. Cara input akhir belum ditetapkan.",
       "taskId": "cara-input"
     },
     {
@@ -298,7 +318,7 @@
   },
   "storageApproach": {
     "title": "Cadangan asas: Google Drive + Google Sheets.",
-    "summary": "Gunakan rekod satu kelas yang cikgu memang sudah ada. Cara mengambil markah dipilih selepas melihat contoh rekod; cikgu tidak diwajibkan isi borang setiap murid atau scan semua kertas.",
+    "summary": "Gunakan rekod satu kelas yang cikgu sudah ada. Helaian jawapan berasingan ialah pilihan untuk latihan pendek jika lebih mudah diimbas. Cara input dipilih selepas melihat contoh dan menguji kerja sebenar cikgu.",
     "driveRole": "Google Drive: simpan bahan sumber dan laporan PDF.",
     "sheetsRole": "Google Sheets: senarai murid dan rekod markah tersusun.",
     "routes": [
@@ -313,9 +333,13 @@
       {
         "existing": "Belum ada rekod markah satu kelas",
         "action": "Pilih cara paling ringan: senarai kelas dalam Sheets, atau Google Form ringkas jika sesuai. Jangan mewajibkan kemasukan semula markah yang sudah direkod."
+      },
+      {
+        "existing": "Pilihan baharu: helaian jawapan berasingan bagi setiap murid",
+        "action": "Untuk satu latihan pendek, cuba satu helaian jawapan dengan ruang mengira yang cukup. Cikgu tanda seperti biasa; scan helaian jawapan atau muka depan yang ada jumlah markah. Benarkan dua muka surat jika perlu. Ini masih satu helaian × bilangan murid; bandingkan dengan rekod markah satu kelas."
       }
     ],
-    "pending": "Perlu contoh bagaimana markah satu kelas direkod sekarang, tanpa nama sebenar murid. Selepas itu pilih cara input paling ringan dan sahkan siapa menyemak bacaan.",
-    "scope": "Ini cadangan proses untuk dibincang. Folder Drive, fail Sheets, borang, sambungan agent dan penjana laporan belum diwujudkan atau disambungkan oleh portal ini."
+    "pending": "Perlu contoh rekod markah satu kelas dan satu latihan pendek Matematik Tahun 4. Bandingkan rekod kelas dengan helaian jawapan: keselesaan murid, padanan nombor soalan, ruang mengira, masa cikgu menanda dan bilangan halaman yang perlu diimbas. Pilihan akhir belum ditetapkan.",
+    "scope": "Ini cadangan proses sahaja. Helaian jawapan belum direka atau diuji; folder Drive, fail Sheets, borang, sambungan agent dan penjana laporan belum diwujudkan atau disambungkan oleh portal ini."
   }
 }
