@@ -149,3 +149,5 @@ svg{vertical-align:middle;flex-shrink:0}
 @media(max-width:760px){.approach-panel{padding:21px 18px;margin-bottom:18px}.approach-panel h2{font-size:18px}.approach-fields{gap:7px}.approach-fields>span{font-size:10px}.approach-examples table{font-size:11px}.approach-examples th,.approach-examples td{padding:10px 8px}.approach-examples td:first-child{width:38%}}
 
 .storage-pending{margin-top:16px}
+
+.workflow-panel + .storage-panel{margin-top:22px}

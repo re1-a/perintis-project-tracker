@@ -1,7 +1,7 @@
 {
   "title": "Projek Laporan Perkembangan Murid",
   "centre": "Perintis Didik",
-  "updatedAt": "2026-11-14T14:48:01.848115+00:00",
+  "updatedAt": "2026-11-14T14:53:44.771128+00:00",
   "phases": [
     {
       "title": "Tetapkan keperluan",
@@ -80,15 +80,15 @@
     },
     {
       "id": "medan-laporan",
-      "title": "Setuju maklumat wajib dalam laporan",
-      "description": "Cadangan minimum versi pertama: nama murid, tajuk latihan atau topik jika tersedia, tarikh, markah diperoleh dan markah penuh. Komen cikgu ialah pilihan. Cikgu tidak perlu tag kemahiran setiap soalan. Laporan membezakan prestasi keseluruhan dengan topik yang mungkin perlukan perhatian. Format akhir masih perlu disemak bersama.",
+      "title": "Setuju kandungan, kekerapan dan perkongsian laporan",
+      "description": "Cadangan minimum versi pertama: nama murid, tajuk latihan atau topik jika tersedia, tarikh, markah diperoleh dan markah penuh. Komen cikgu ialah pilihan. Cikgu tidak perlu tag kemahiran setiap soalan. Laporan membezakan prestasi keseluruhan dengan topik yang mungkin perlukan perhatian. Format akhir masih perlu disemak bersama. Sahkan sama ada laporan diminta setiap latihan, bulanan atau atas permintaan; pilih individu atau batch, contoh rupa laporan, siapa menyemak dan siapa berkongsi kepada parents melalui cara yang dipersetujui. Ini belum bermaksud penghantaran automatik akan dibuat.",
       "owner": "bersama",
       "status": "backlog",
       "priority": "normal",
       "phase": 1,
       "dueDate": null,
       "createdAt": "2026-11-14T11:11:16.041Z",
-      "updatedAt": "2026-11-14T14:01:43.871215+00:00"
+      "updatedAt": "2026-11-14T14:53:44.771128+00:00"
     },
     {
       "id": "cara-input",
@@ -117,26 +117,26 @@
     {
       "id": "prototype",
       "title": "Bina versi percubaan yang dipersetujui",
-      "description": "Bermula selepas skop dan contoh laporan diluluskan. Portal projek ini bukan bukti sistem laporan murid sudah siap.",
+      "description": "Bermula selepas skop dan contoh laporan diluluskan. Portal projek ini bukan bukti sistem laporan murid sudah siap. Tempat proses/hosting, akses Google, cara input dan usaha semakan perlu diputuskan dahulu. AI grading serta tag kemahiran setiap soalan bukan syarat skop awal.",
       "owner": "rezz",
       "status": "backlog",
       "priority": "normal",
       "phase": 3,
       "dueDate": null,
       "createdAt": "2026-11-14T11:11:16.041Z",
-      "updatedAt": "2026-11-14T11:11:16.041Z"
+      "updatedAt": "2026-11-14T14:53:44.771128+00:00"
     },
     {
       "id": "test",
       "title": "Uji aliran dan semak hasil bersama",
-      "description": "Uji ketepatan pemindahan markah, masa cikgu dan kerja semakan Rezz/admin. Jika menggunakan gambar buku markah, uji nama/kod murid, markah penuh dan markah diperoleh pada satu contoh rekod kelas dahulu. Bacaan kabur mesti ditanda untuk semakan. Cikgu tidak diwajibkan tag kemahiran setiap soalan; rumusan akademik dirujuk kepada cikgu jika perlu. Jika helaian jawapan diuji, semak keselesaan murid, ruang kerja mengira, padanan nombor soalan, masa menanda dan jumlah halaman scan; benarkan dua muka surat jika perlu.",
+      "description": "Uji ketepatan pemindahan markah, masa cikgu dan kerja semakan Rezz/admin. Jika menggunakan gambar buku markah, uji nama/kod murid, markah penuh dan markah diperoleh pada satu contoh rekod kelas dahulu. Bacaan kabur mesti ditanda untuk semakan. Cikgu tidak diwajibkan tag kemahiran setiap soalan; rumusan akademik dirujuk kepada cikgu jika perlu. Jika helaian jawapan diuji, semak keselesaan murid, ruang kerja mengira, padanan nombor soalan, masa menanda dan jumlah halaman scan; benarkan dua muka surat jika perlu. Ukur masa semakan dan pembetulan berbanding cara asal sebelum memutuskan kaedah yang lebih ringan. Uji murid/halaman tertukar, markah diperoleh melebihi markah penuh, rekod berulang, markah kosong, tidak hadir dan sifar yang disahkan. Kriteria penerimaan perlu dipersetujui sebelum ujian; ini senarai cadangan semakan, bukan keputusan ujian yang sudah lulus.",
       "owner": "bersama",
       "status": "backlog",
       "priority": "normal",
       "phase": 4,
       "dueDate": null,
       "createdAt": "2026-11-14T11:11:16.041Z",
-      "updatedAt": "2026-11-14T14:48:01.848115+00:00"
+      "updatedAt": "2026-11-14T14:53:44.771128+00:00"
     },
     {
       "id": "go-live",
@@ -153,17 +153,49 @@
     {
       "id": "uji-helaian-jawapan",
       "title": "Bandingkan helaian jawapan dengan rekod markah kelas",
-      "description": "Cadangan ujian, belum dijalankan: guna satu latihan pendek Matematik Tahun 4. Nilai helaian jawapan berasingan dengan ruang mengira, kod murid/latihan, nombor soalan dan kotak jumlah markah di atas. Benarkan dua muka surat jika diperlukan. Semak keselesaan murid, masa cikgu menanda, jumlah halaman scan dan ketepatan bacaan markah muka depan. Bandingkan dengan mengambil rekod markah satu kelas. Tiada syarat menukar semua latihan sebelum ujian ini berjaya.",
+      "description": "Cadangan ujian, belum dijalankan: guna satu latihan pendek Matematik Tahun 4. Nilai helaian jawapan berasingan dengan ruang mengira, kod murid/latihan, nombor soalan dan kotak jumlah markah di atas. Benarkan dua muka surat jika diperlukan. Semak keselesaan murid, masa cikgu menanda, jumlah halaman scan dan ketepatan bacaan markah muka depan. Bandingkan dengan mengambil rekod markah satu kelas. Tiada syarat menukar semua latihan sebelum ujian ini berjaya. Muka depan perlu ada kod murid/latihan, tarikh, tajuk/topik jika ada dan markah diperoleh/penuh. Jika dua muka surat, ulang kod dan nombor halaman. Simpan kertas soalan sekali bagi setiap set latihan. Helaian belum direka atau diuji.",
       "owner": "bersama",
       "status": "backlog",
       "priority": "normal",
       "phase": 2,
       "dueDate": null,
       "createdAt": "2026-11-14T14:48:01.848115+00:00",
-      "updatedAt": "2026-11-14T14:48:01.848115+00:00"
+      "updatedAt": "2026-11-14T14:53:44.771128+00:00"
+    },
+    {
+      "id": "rujukan-silibus",
+      "title": "Sahkan rujukan silibus dan nama topik Matematik Tahun 4",
+      "description": "Rezz semak rujukan silibus atau buku/topik yang pusat gunakan dan padankan tajuk latihan jika jelas. Dapatkan pengesahan cikgu hanya apabila perlu. Jangan bina kerja tag kemahiran setiap soalan untuk cikgu. Jika latihan campuran atau tajuk tidak diketahui, paparkan prestasi keseluruhan atau belum ada bukti topik; jangan meneka kelemahan. Versi rujukan dan topik pertama masih pending.",
+      "owner": "rezz",
+      "phase": 1,
+      "status": "backlog",
+      "priority": "normal",
+      "dueDate": null,
+      "createdAt": "2026-11-14T14:53:44.771128+00:00",
+      "updatedAt": "2026-11-14T14:53:44.771128+00:00"
+    },
+    {
+      "id": "tempat-proses-akses",
+      "title": "Putuskan tempat proses, akaun Google dan akses",
+      "description": "Website GitHub ialah tracker perancangan sahaja. Sahkan di mana proses laporan sebenar berjalan, akaun pemilik folder Drive/Sheets dan siapa diberi akses kepada input, semakan serta PDF. Tentukan siapa menyemak bacaan dan anggaran kos sebelum bina. Zima, Google Apps Script atau servis lain belum dipilih. Data murid dan dokumen peribadi tidak dimasukkan ke website/repository GitHub yang awam. Folder, fail, sambungan dan automation belum diwujudkan.",
+      "owner": "bersama",
+      "phase": 1,
+      "status": "backlog",
+      "priority": "normal",
+      "dueDate": null,
+      "createdAt": "2026-11-14T14:53:44.771128+00:00",
+      "updatedAt": "2026-11-14T14:53:44.771128+00:00"
     }
   ],
   "notes": [
+    {
+      "id": "review-completeness",
+      "kind": "proposal",
+      "title": "Semakan kelengkapan: perancangan lengkap, pelaksanaan masih pending",
+      "content": "Semakan tracker menemui butiran helaian jawapan yang belum selaras pada langkah pemprosesan dan keputusan terbuka yang belum menjadi tugasan jelas. Input helaian kini diselaraskan hingga langkah bacaan sistem. Ditambah pending rujukan silibus, tempat proses/akaun Google/akses, kekerapan serta perkongsian laporan, dan cadangan semakan input berulang atau tak lengkap. Rajah utama dinaikkan ke atas halaman proses. Ini pembetulan perancangan; kaedah input, format laporan, kos dan kriteria pilot masih belum dipersetujui dengan Cikgu Awan.",
+      "author": "Semakan projek",
+      "date": "2026-11-14T14:53:44.771128+00:00"
+    },
     {
       "id": "separate-answer-sheet",
       "kind": "decision",
@@ -227,7 +259,7 @@
       "actor": "Cikgu",
       "type": "teacher",
       "summary": "Semak jawapan dan beri markah seperti biasa.",
-      "detail": "Cikgu membuat pemarkahan. Sistem tidak menggantikan pertimbangan cikgu atau menanda jawapan murid secara automatik. Jika pilihan helaian jawapan digunakan, murid menjawab pada helaian berasingan dan cikgu menanda seperti biasa. Ini perlu diuji pada satu latihan pendek; jangan sempitkan ruang mengira untuk memaksa satu muka surat.",
+      "detail": "Cikgu membuat pemarkahan. Sistem tidak menggantikan pertimbangan cikgu atau menanda jawapan murid secara automatik. Jika pilihan helaian jawapan digunakan, murid menjawab pada helaian berasingan dan cikgu menanda seperti biasa. Ini perlu diuji pada satu latihan pendek; jangan sempitkan ruang mengira untuk memaksa satu muka surat. Cadangan muka depan: kod murid, kod latihan, tarikh, tajuk/topik jika ada dan markah diperoleh/penuh. Jika ada muka kedua, ulang kod murid/latihan serta nombor halaman supaya tidak tertukar.",
       "input": "Kertas atau hasil latihan murid.",
       "output": "Markah dan komen yang sudah ditanda cikgu.",
       "pending": "Perlu contoh rekod atau kertas bertanda tanpa identiti murid.",
@@ -249,7 +281,7 @@
       "actor": "Cikgu / admin",
       "type": "teacher",
       "summary": "Guna rekod kelas atau uji helaian jawapan.",
-      "detail": "Jika markah sudah dalam Excel/Google Sheets, guna rekod itu terus. Jika dalam buku/senarai kertas, cadangan ialah gambar atau scan satu halaman rekod kelas ke Drive. Jika belum ada rekod kelas, pilih Sheet kelas atau Form ringkas yang sesuai. Tiada syarat scan semua kertas murid atau tag kemahiran setiap soalan. Pilihan tambahan untuk diuji: satu helaian jawapan bagi setiap murid untuk latihan pendek, dengan kod murid, kod latihan, nombor soalan dan kotak jumlah markah di atas. Dua muka surat dibenarkan jika perlu. Kertas soalan disimpan sekali untuk set latihan; tidak perlu mengimbas semua halaman soalan setiap murid. Untuk ringkasan markah, baca muka depan yang ada tajuk, tarikh dan jumlah markah. Bandingkan usaha scan helaian setiap murid dengan rekod markah satu kelas.",
+      "detail": "Jika markah sudah dalam Excel/Google Sheets, guna rekod itu terus. Jika dalam buku/senarai kertas, cadangan ialah gambar atau scan satu halaman rekod kelas ke Drive. Jika belum ada rekod kelas, pilih Sheet kelas atau Form ringkas yang sesuai. Tiada syarat scan semua kertas murid atau tag kemahiran setiap soalan. Pilihan tambahan untuk diuji: satu helaian jawapan bagi setiap murid untuk latihan pendek, dengan kod murid, kod latihan, nombor soalan dan kotak jumlah markah di atas. Dua muka surat dibenarkan jika perlu. Kertas soalan disimpan sekali untuk set latihan; tidak perlu mengimbas semua halaman soalan setiap murid. Untuk ringkasan markah, baca muka depan yang ada tajuk, tarikh dan jumlah markah. Bandingkan usaha scan helaian setiap murid dengan rekod markah satu kelas. Pada muka depan, sediakan markah diperoleh dan markah penuh secara berasingan. Jika dua muka surat digunakan, ulang kod murid/latihan dan nombor halaman. Latihan bertopik campuran kekal sebagai keputusan keseluruhan kecuali ada bukti berasingan mengikut topik.",
       "input": "Rekod kelas sedia ada, atau helaian jawapan yang diuji: kod murid/latihan, tajuk/topik jika ada, tarikh dan markah diperoleh/penuh.",
       "output": "Fail digital, imej rekod kelas atau muka depan helaian jawapan untuk diproses.",
       "pending": "Bandingkan rekod kelas dengan helaian jawapan pada satu latihan pendek. Cara input akhir belum ditetapkan.",
@@ -260,10 +292,10 @@
       "actor": "Sistem · cadangan",
       "type": "system",
       "summary": "Ringkaskan prestasi berdasarkan bukti yang ada.",
-      "detail": "Cadangan sistem/agent: import rekod digital atau cuba baca gambar rekod kelas, kemudian susun markah dan tajuk latihan menjadi draf. Bacaan tulisan tangan perlu diuji; nilai kabur mesti ditanda untuk semakan Rezz/admin, bukan diteka. Jumlah markah ujian umum hanya menunjukkan prestasi keseluruhan. Anggaran topik hanya jika tajuk latihan diketahui dan dilabel mungkin perlukan perhatian.",
-      "input": "Rekod Excel/Sheets atau gambar halaman markah dari folder Drive.",
+      "detail": "Cadangan sistem/agent: import rekod Excel/Sheets, atau cuba baca gambar rekod kelas atau muka depan helaian jawapan yang dipilih selepas ujian. Semak kod murid, kod latihan, tarikh, tajuk/topik jika ada serta markah diperoleh/penuh. Bacaan tulisan tangan perlu diuji; nilai kabur, halaman tak dikenal pasti atau rekod berulang ditanda untuk semakan Rezz/admin. Jangan meneka atau menyimpan semula rekod yang sama tanpa semakan. Jumlah markah ujian umum atau latihan campuran hanya menunjukkan prestasi keseluruhan. Anggaran topik hanya jika tajuk/topik diketahui dan dilabel mungkin perlukan perhatian.",
+      "input": "Rekod Excel/Sheets, gambar rekod kelas atau muka depan helaian jawapan; kertas soalan disimpan sekali bagi setiap set latihan sebagai rujukan.",
       "output": "Draf rekod tersusun dan ringkasan dengan bahagian meragukan ditanda.",
-      "pending": "Uji satu contoh rekod dan tentukan proses semakan sebelum automation dibina.",
+      "pending": "Uji satu contoh input, padanan kod dan rekod berulang; sahkan tempat automation akan berjalan sebelum dibina.",
       "taskId": "prototype"
     },
     {
@@ -285,7 +317,7 @@
       "detail": "Cadangan selepas semakan: simpan senarai murid dan markah dalam Google Sheets, kemudian hasilkan PDF laporan ke Google Drive. Format individu/batch dan kandungan laporan masih perlu dipersetujui. Folder, fail, automation penjana PDF dan penghantaran kepada parents belum disediakan.",
       "input": "Rekod yang sudah disemak dan format laporan yang dipersetujui.",
       "output": "Cadangan: rekod markah di Sheets dan PDF laporan di Drive.",
-      "pending": "Sahkan format, folder, akses dan kandungan; bina hanya selepas contoh input/output dipersetujui.",
+      "pending": "Sahkan contoh laporan, kandungan, individu/batch, kekerapan, akses folder dan cara parents menerima laporan; semuanya belum dimuktamadkan.",
       "taskId": "contoh-laporan"
     }
   ],
@@ -293,7 +325,7 @@
     "title": "Tak perlu tag kemahiran setiap soalan.",
     "summary": "Cikgu terus tanda latihan seperti biasa. Versi pertama menggunakan tajuk latihan, tarikh dan markah yang sudah tersedia; komen cikgu ialah pilihan.",
     "fields": [
-      "Nama murid",
+      "Nama / kod murid",
       "Tajuk latihan / topik jika ada",
       "Tarikh",
       "Markah diperoleh",
@@ -314,7 +346,7 @@
         "estimate": "Boleh dinilai kemudian untuk anggaran topik lebih terperinci, jika bacaan dan padanan soalan boleh disemak. Ini tambahan, bukan syarat."
       }
     ],
-    "limits": "Anggaran perlu dibaca bersama konteks latihan. Kesukaran latihan boleh berbeza; markah meningkat sahaja belum membuktikan penguasaan bertambah. Tajuk tidak diketahui atau topik belum diuji ditanda belum ada bukti, bukan dianggap lemah."
+    "limits": "Anggaran perlu dibaca bersama konteks latihan. Kesukaran latihan boleh berbeza; markah meningkat sahaja belum membuktikan penguasaan bertambah. Tajuk tidak diketahui atau topik belum diuji ditanda belum ada bukti, bukan dianggap lemah. Markah kosong, tidak hadir dan bacaan tidak jelas perlu dibezakan daripada sifar yang disahkan. Jumlah markah bagi latihan campuran tidak boleh dianggap sebagai bukti kelemahan satu topik."
   },
   "storageApproach": {
     "title": "Cadangan asas: Google Drive + Google Sheets.",
@@ -336,10 +368,10 @@
       },
       {
         "existing": "Pilihan baharu: helaian jawapan berasingan bagi setiap murid",
-        "action": "Untuk satu latihan pendek, cuba satu helaian jawapan dengan ruang mengira yang cukup. Cikgu tanda seperti biasa; scan helaian jawapan atau muka depan yang ada jumlah markah. Benarkan dua muka surat jika perlu. Ini masih satu helaian × bilangan murid; bandingkan dengan rekod markah satu kelas."
+        "action": "Untuk satu latihan pendek, cuba satu helaian jawapan dengan ruang mengira yang cukup. Letak kod murid, kod latihan, tarikh, tajuk/topik jika ada, serta markah diperoleh/penuh di atas. Cikgu tanda seperti biasa; scan helaian atau muka depan yang mengandungi maklumat minimum. Benarkan dua muka surat jika perlu dan ulang kod serta nombor halaman. Ini masih satu helaian × bilangan murid; bandingkan dengan rekod markah satu kelas."
       }
     ],
-    "pending": "Perlu contoh rekod markah satu kelas dan satu latihan pendek Matematik Tahun 4. Bandingkan rekod kelas dengan helaian jawapan: keselesaan murid, padanan nombor soalan, ruang mengira, masa cikgu menanda dan bilangan halaman yang perlu diimbas. Pilihan akhir belum ditetapkan.",
+    "pending": "Perlu contoh rekod markah satu kelas dan satu latihan pendek Matematik Tahun 4. Bandingkan rekod kelas dengan helaian jawapan: keselesaan murid, padanan nombor soalan, ruang mengira, masa menanda, bilangan halaman scan dan usaha semakan Rezz/admin. Cara input, akaun Google dan tempat automation berjalan belum dipilih.",
     "scope": "Ini cadangan proses sahaja. Helaian jawapan belum direka atau diuji; folder Drive, fail Sheets, borang, sambungan agent dan penjana laporan belum diwujudkan atau disambungkan oleh portal ini."
   }
 }

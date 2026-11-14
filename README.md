@@ -4,7 +4,7 @@ Website statik BM untuk melihat proses dan pending projek laporan perkembangan m
 
 ## Kemampuan
 
-- Ringkasan, lima fasa, butiran sembilan tugasan awal, pemilik dan status.
+- Ringkasan, lima fasa, tugasan dan keputusan projek, pemilik dan status.
 - Rajah workflow enam langkah beranak panah; peranan cikgu/sistem, butiran input/hasil/pending dan pautan tugasan.
 - Dua paparan proses: cara penggunaan sistem yang dicadangkan dan pelan pembangunan projek.
 - Tapisan pemilik/status, carian dan paparan catatan/keputusan.
