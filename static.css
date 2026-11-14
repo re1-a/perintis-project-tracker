@@ -120,3 +120,30 @@ svg{vertical-align:middle;flex-shrink:0}
 [data-theme="dark"] .workflow-task-link{color:#c9b2df}
 @media(max-width:1100px){.workflow-panel{padding:23px 20px 20px}.workflow-board{column-gap:31px;row-gap:42px}.wf-card{padding:14px 13px;min-height:185px}.wf-actor{font-size:8px;gap:4px}.wf-top{gap:6px}.wf-number{width:26px;height:26px}.wf-card>strong{font-size:13px}.wf-summary{font-size:10px}.wf-connector{right:-27px}.wf-node[data-node="4"] .wf-connector,.wf-node[data-node="5"] .wf-connector{left:-27px}.wf-node[data-node="3"] .wf-connector{top:calc(100% + 10px)}.workflow-heading{flex-direction:column;gap:10px}.workflow-legend{flex-direction:row;flex-wrap:wrap;gap:18px;padding:0}.workflow-heading h2{font-size:19px}}
 @media(max-width:760px){.process-view-switch{display:flex;width:100%;margin-bottom:18px}.process-view-switch button{flex:1;font-size:10px;padding:10px 8px;gap:6px}.workflow-panel{padding:22px 18px 19px}.workflow-heading h2{font-size:19px;line-height:1.55}.workflow-heading p{font-size:11px}.workflow-legend>span{font-size:10px}.workflow-board{display:flex;flex-direction:column;gap:37px;margin:25px 0 22px}.wf-card{padding:16px 17px;min-height:0}.wf-top{margin-bottom:10px}.wf-number{width:29px;height:29px;font-size:11px}.wf-actor{font-size:10px}.wf-card>strong{font-size:15px}.wf-summary{font-size:12px;line-height:1.85;margin-bottom:11px}.wf-more{font-size:10px}.wf-node .wf-connector,.wf-node[data-node="3"] .wf-connector,.wf-node[data-node="4"] .wf-connector,.wf-node[data-node="5"] .wf-connector{right:auto;left:calc(50% - 11px);top:calc(100% + 7px);transform:rotate(90deg)}.workflow-checkpoint{padding:14px 13px;gap:9px}.workflow-checkpoint p{font-size:11px}.workflow-caption{font-size:10px}.workflow-io{grid-template-columns:1fr;gap:18px}.workflow-io dd{font-size:12px}.workflow-open-question p{font-size:12px}.workflow-pending .task-owner{display:none}}
+
+.approach-panel{padding:23px 26px;margin-bottom:22px}
+.approach-panel h2{font-size:20px;font-weight:550;line-height:1.5;margin:8px 0 10px;letter-spacing:-.3px}
+.approach-summary{font-size:12px;line-height:1.9;color:#8c839b;max-width:780px}
+.approach-fields{display:flex;flex-wrap:wrap;gap:8px;margin:17px 0}
+.approach-fields>span{display:flex;align-items:center;gap:6px;padding:6px 9px;font-size:11px;border-radius:7px;background:#f4f2f8;color:#8e819e}
+.approach-fields svg{color:#b29d61}
+.approach-examples{border-top:1px solid var(--line);margin-top:18px;padding-top:15px}
+.approach-examples summary{cursor:pointer;font-size:12px;color:#8a7b9c;font-weight:500}
+.approach-table-wrap{margin-top:16px;overflow-x:auto}
+.approach-examples table{width:100%;border-collapse:collapse;text-align:left;font-size:12px;line-height:1.9}
+.approach-examples th{padding:9px 12px;font-weight:550;background:#f7f5fa;color:#82748f}
+.approach-examples td{padding:12px;border-bottom:1px solid var(--line);color:#978b9f;vertical-align:top}
+.approach-examples td:first-child{width:34%;color:#86788e}
+.approach-limits{font-size:11px;line-height:1.9;color:#9e92a7;margin-top:13px}
+.approach-label{font-size:11px;line-height:1.9;color:#a08f6e;margin-top:15px}
+.approach-label strong{font-weight:550;color:#a68a49}
+[data-theme="dark"] .approach-summary{color:#bbb4ce}
+[data-theme="dark"] .approach-fields>span{background:#2c2e42;color:#c6bed8}
+[data-theme="dark"] .approach-fields svg{color:#d6bd79}
+[data-theme="dark"] .approach-examples summary{color:#c4afd8}
+[data-theme="dark"] .approach-examples th{background:#282b3e;color:#d4cbe2}
+[data-theme="dark"] .approach-examples td,[data-theme="dark"] .approach-examples td:first-child{color:#bfb5d0}
+[data-theme="dark"] .approach-limits{color:#aca1bd}
+[data-theme="dark"] .approach-label{color:#c5b58f}
+[data-theme="dark"] .approach-label strong{color:#e3c87e}
+@media(max-width:760px){.approach-panel{padding:21px 18px;margin-bottom:18px}.approach-panel h2{font-size:18px}.approach-fields{gap:7px}.approach-fields>span{font-size:10px}.approach-examples table{font-size:11px}.approach-examples th,.approach-examples td{padding:10px 8px}.approach-examples td:first-child{width:38%}}

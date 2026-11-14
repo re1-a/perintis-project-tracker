@@ -1,7 +1,7 @@
 {
   "title": "Projek Laporan Perkembangan Murid",
   "centre": "Perintis Didik",
-  "updatedAt": "2026-11-14T12:20:08.262161+00:00",
+  "updatedAt": "2026-11-14T14:01:43.871215+00:00",
   "phases": [
     {
       "title": "Tetapkan keperluan",
@@ -81,38 +81,38 @@
     {
       "id": "medan-laporan",
       "title": "Setuju maklumat wajib dalam laporan",
-      "description": "Bincangkan markah, topik, komen cikgu dan tempoh laporan. Rekod keputusan dalam ruang Keputusan selepas kedua-dua pihak bersetuju.",
+      "description": "Cadangan minimum versi pertama: nama murid, tajuk latihan atau topik jika tersedia, tarikh, markah diperoleh dan markah penuh. Komen cikgu ialah pilihan. Cikgu tidak perlu tag kemahiran setiap soalan. Laporan membezakan prestasi keseluruhan dengan topik yang mungkin perlukan perhatian. Format akhir masih perlu disemak bersama.",
       "owner": "bersama",
       "status": "backlog",
       "priority": "normal",
       "phase": 1,
       "dueDate": null,
       "createdAt": "2026-11-14T11:11:16.041Z",
-      "updatedAt": "2026-11-14T11:11:16.041Z"
+      "updatedAt": "2026-11-14T14:01:43.871215+00:00"
     },
     {
       "id": "cara-input",
       "title": "Tentukan cara input paling mudah",
-      "description": "Rezz semak contoh dahulu. Borang ringkas atau scan kertas masih pilihan terbuka. Scan belum dibina atau diuji; keputusan bergantung pada contoh dan usaha semakan cikgu.",
+      "description": "Rezz semak rekod sedia ada dan pilih cara paling ringan untuk mengambil tajuk latihan, tarikh serta markah diperoleh/penuh. Jangan wajibkan cikgu memecahkan markah mengikut kemahiran. Borang atau scan masih pilihan terbuka; bacaan kertas terperinci ialah tambahan yang perlu diuji.",
       "owner": "rezz",
       "status": "waiting",
       "priority": "utama",
       "phase": 2,
       "dueDate": null,
       "createdAt": "2026-11-14T11:11:16.041Z",
-      "updatedAt": "2026-11-14T11:11:16.041Z"
+      "updatedAt": "2026-11-14T14:01:43.871215+00:00"
     },
     {
       "id": "draft-report",
       "title": "Sediakan contoh rupa laporan",
-      "description": "Selepas menerima contoh dan medan wajib, Rezz sediakan contoh menggunakan data rekaan untuk semakan Cikgu Awan. Laporan individu atau batch perlu disahkan dalam skop.",
+      "description": "Sediakan contoh laporan Matematik Tahun 4 dengan data rekaan menggunakan tajuk latihan dan markah sedia ada. Jika markah ujian umum sahaja tersedia, paparkan prestasi keseluruhan. Jika tajuk topik diketahui, gunakan label topik yang mungkin perlukan perhatian. Jangan menyatakan kelemahan khusus tanpa bukti. Format individu/batch masih perlu disahkan.",
       "owner": "rezz",
       "status": "backlog",
       "priority": "normal",
       "phase": 2,
       "dueDate": null,
       "createdAt": "2026-11-14T11:11:16.041Z",
-      "updatedAt": "2026-11-14T11:11:16.041Z"
+      "updatedAt": "2026-11-14T14:01:43.871215+00:00"
     },
     {
       "id": "prototype",
@@ -129,14 +129,14 @@
     {
       "id": "test",
       "title": "Uji aliran dan semak hasil bersama",
-      "description": "Cikgu semak ketepatan hasil, masa mengisi dan pembetulan diperlukan. Kriteria lulus dan tarikh ujian belum ditetapkan.",
+      "description": "Uji ketepatan pemindahan markah, usaha cikgu dan kejelasan anggaran. Pastikan jumlah markah ujian umum tidak menghasilkan kesimpulan topik lemah. Rekod tidak lengkap atau bacaan kabur mesti ditanda untuk semakan. Tiada syarat cikgu tag kemahiran setiap soalan.",
       "owner": "bersama",
       "status": "backlog",
       "priority": "normal",
       "phase": 4,
       "dueDate": null,
       "createdAt": "2026-11-14T11:11:16.041Z",
-      "updatedAt": "2026-11-14T11:11:16.041Z"
+      "updatedAt": "2026-11-14T14:01:43.871215+00:00"
     },
     {
       "id": "go-live",
@@ -153,10 +153,18 @@
   ],
   "notes": [
     {
+      "id": "low-workload-estimates",
+      "kind": "decision",
+      "title": "Utamakan rekod sedia ada, tanpa tag kemahiran wajib",
+      "content": "Rezz mahu mengelakkan tambahan kerja cikgu. Versi pertama menggunakan nama murid, tajuk latihan/topik jika ada, tarikh serta markah diperoleh dan penuh. Komen cikgu pilihan. Anggaran dilabel topik yang mungkin perlukan perhatian; jumlah markah ujian umum hanya menunjukkan prestasi keseluruhan. Analisis setiap soalan atau scan terperinci ialah tambahan kemudian, bukan syarat untuk guna servis. Cadangan ini masih perlu disemak bersama Cikgu Awan.",
+      "author": "Rezz",
+      "date": "2026-11-14T14:01:43.871215+00:00"
+    },
+    {
       "id": "pilot-math-year4",
       "kind": "decision",
       "title": "Percubaan pertama: Matematik Tahun 4",
-      "content": "Dipilih oleh Rezz. Kumpulan murid sebenar, topik pertama dan contoh latihan masih perlu disahkan dengan Cikgu Awan. Analisis akan memerlukan markah mengikut soalan atau kemahiran, bukan jumlah keseluruhan sahaja.",
+      "content": "Dipilih oleh Rezz. Kumpulan murid sebenar, topik pertama dan contoh latihan masih perlu disahkan dengan Cikgu Awan. Skop awal kini menggunakan tajuk latihan dan markah sedia ada tanpa mewajibkan tag kemahiran setiap soalan. Analisis terperinci ialah tambahan kemudian.",
       "author": "Rezz",
       "date": "2026-11-14T12:20:08.262161+00:00"
     },
@@ -212,32 +220,32 @@
       "title": "Masukkan hasil",
       "actor": "Cikgu",
       "type": "teacher",
-      "summary": "Isi borang ringkas atau scan kertas bertanda.",
-      "detail": "Dua pilihan untuk dinilai: cikgu memasukkan markah melalui borang, atau mengimbas kertas yang sudah ditanda. Scan belum dibina atau diuji. Pilihan paling mudah diputuskan selepas semak contoh.",
-      "input": "Markah dan komen cikgu; jika scan dipilih, imej kertas bertanda.",
-      "output": "Maklumat untuk sistem menyusun draf laporan.",
-      "pending": "Borang atau scan? Cara input belum dipilih.",
+      "summary": "Ambil tajuk latihan dan markah sedia ada.",
+      "detail": "Cikgu tidak perlu tag kemahiran setiap soalan. Cadangan minimum ialah mengambil nama murid, tajuk latihan atau topik jika tersedia, tarikh serta markah diperoleh dan markah penuh daripada rekod sedia ada. Komen cikgu ialah pilihan. Cara ambil rekod melalui borang atau scan masih belum dipilih.",
+      "input": "Nama murid, tajuk latihan/topik jika ada, tarikh, markah diperoleh dan markah penuh.",
+      "output": "Rekod ringkas berdasarkan kerja yang cikgu sudah buat.",
+      "pending": "Semak contoh rekod dan tentukan cara input paling ringan.",
       "taskId": "cara-input"
     },
     {
-      "title": "Sistem susun draf",
+      "title": "Sistem susun anggaran",
       "actor": "Sistem · cadangan",
       "type": "system",
-      "summary": "Susun hasil menjadi rekod dan draf laporan.",
-      "detail": "Sistem dicadangkan untuk menyusun markah dan komen. Jika scan dipilih, ketepatan bacaan perlu diuji dahulu. Maklumat tidak jelas perlu ditanda untuk semakan, bukan diteka.",
-      "input": "Maklumat penilaian yang dimasukkan atau dibaca daripada kertas.",
-      "output": "Draf hasil yang belum disahkan cikgu.",
-      "pending": "Perlu bina dan uji selepas cara input dipersetujui.",
+      "summary": "Ringkaskan prestasi berdasarkan bukti yang ada.",
+      "detail": "Cadangan sistem: susun markah dan tajuk latihan menjadi draf ringkasan. Markah ujian umum hanya menunjukkan prestasi keseluruhan. Jika latihan mempunyai topik yang jelas, sistem boleh menandakan topik yang mungkin perlukan perhatian. Ia bukan keputusan muktamad kelemahan murid. Jangan meneka topik daripada jumlah markah sahaja. Analisis soalan terperinci ialah tambahan kemudian, bukan kerja wajib cikgu.",
+      "input": "Rekod ringkas tajuk latihan, tarikh dan markah.",
+      "output": "Draf ringkasan prestasi dan petunjuk topik jika bukti mencukupi.",
+      "pending": "Semak contoh laporan dan pastikan label anggaran tidak mengelirukan.",
       "taskId": "prototype"
     },
     {
       "title": "Cikgu semak & sahkan",
       "actor": "Cikgu",
       "type": "teacher",
-      "summary": "Betulkan kesilapan sebelum hasil disimpan.",
-      "detail": "Cikgu menyemak murid yang dipilih, markah, topik dan komen. Jika ada kesilapan, betulkan dahulu dan semak semula. Simpan hasil hanya selepas pengesahan cikgu.",
-      "input": "Draf rekod dan laporan untuk disemak.",
-      "output": "Hasil yang telah disemak dan disahkan cikgu.",
+      "summary": "Semak markah dan ringkasan sebelum pengesahan.",
+      "detail": "Cikgu semak ringkas bahawa rekod murid, markah dan ringkasan tidak tersalah. Tiada keperluan untuk tag kemahiran setiap soalan. Maklumat kabur perlu diperiksa sebelum simpan; anggaran topik kekal sebagai petunjuk, bukan keputusan muktamad. Usaha semakan perlu diukur dalam percubaan.",
+      "input": "Draf ringkasan daripada rekod sedia ada.",
+      "output": "Rekod dan ringkasan yang disemak untuk dikongsi.",
       "pending": "Setuju kriteria semakan dan uji ketepatan bersama.",
       "taskId": "test"
     },
@@ -252,5 +260,32 @@
       "pending": "Perlu contoh laporan serta persetujuan kandungan dan format.",
       "taskId": "contoh-laporan"
     }
-  ]
+  ],
+  "assessmentApproach": {
+    "title": "Tak perlu tag kemahiran setiap soalan.",
+    "summary": "Cikgu terus tanda latihan seperti biasa. Versi pertama menggunakan tajuk latihan, tarikh dan markah yang sudah tersedia; komen cikgu ialah pilihan.",
+    "fields": [
+      "Nama murid",
+      "Tajuk latihan / topik jika ada",
+      "Tarikh",
+      "Markah diperoleh",
+      "Markah penuh"
+    ],
+    "label": "Topik yang mungkin perlukan perhatian",
+    "examples": [
+      {
+        "record": "Ujian Matematik: 60/100",
+        "estimate": "Prestasi keseluruhan ujian itu. Topik bermasalah belum dapat dikenal pasti."
+      },
+      {
+        "record": "Latihan bertajuk Pecahan: 4/20",
+        "estimate": "Petunjuk bahawa pecahan mungkin perlukan perhatian; belum membuktikan kelemahan tertentu."
+      },
+      {
+        "record": "Kertas bertanda dengan markah setiap soalan",
+        "estimate": "Boleh dinilai kemudian untuk anggaran topik lebih terperinci, jika bacaan dan padanan soalan boleh disemak. Ini tambahan, bukan syarat."
+      }
+    ],
+    "limits": "Anggaran perlu dibaca bersama konteks latihan. Kesukaran latihan boleh berbeza; markah meningkat sahaja belum membuktikan penguasaan bertambah. Tajuk tidak diketahui atau topik belum diuji ditanda belum ada bukti, bukan dianggap lemah."
+  }
 }
