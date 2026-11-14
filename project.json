@@ -1,7 +1,7 @@
 {
   "title": "Projek Laporan Perkembangan Murid",
   "centre": "Perintis Didik",
-  "updatedAt": "2026-11-14T12:09:21.795353+00:00",
+  "updatedAt": "2026-11-14T12:20:08.262161+00:00",
   "phases": [
     {
       "title": "Tetapkan keperluan",
@@ -68,15 +68,15 @@
     },
     {
       "id": "pilot",
-      "title": "Pilih kelas dan subjek untuk percubaan",
-      "description": "Cadangan: satu kelas dan satu subjek dahulu. Bilangan murid, tempoh percubaan dan jadual masih perlu dipersetujui bersama.",
+      "title": "Sahkan kumpulan percubaan Matematik Tahun 4",
+      "description": "Rezz memilih Matematik Tahun 4 untuk percubaan pertama. Cikgu Awan masih perlu mengesahkan kumpulan murid, topik yang sudah diajar, contoh kertas latihan dan bilangan murid. Tempoh serta jadual percubaan belum ditetapkan.",
       "owner": "awan",
-      "status": "backlog",
+      "status": "waiting",
       "priority": "normal",
       "phase": 1,
       "dueDate": null,
       "createdAt": "2026-11-14T11:11:16.041Z",
-      "updatedAt": "2026-11-14T11:11:16.041Z"
+      "updatedAt": "2026-11-14T12:20:08.262161+00:00"
     },
     {
       "id": "medan-laporan",
@@ -153,6 +153,14 @@
   ],
   "notes": [
     {
+      "id": "pilot-math-year4",
+      "kind": "decision",
+      "title": "Percubaan pertama: Matematik Tahun 4",
+      "content": "Dipilih oleh Rezz. Kumpulan murid sebenar, topik pertama dan contoh latihan masih perlu disahkan dengan Cikgu Awan. Analisis akan memerlukan markah mengikut soalan atau kemahiran, bukan jumlah keseluruhan sahaja.",
+      "author": "Rezz",
+      "date": "2026-11-14T12:20:08.262161+00:00"
+    },
+    {
       "id": "scope",
       "kind": "decision",
       "title": "Fokus pada laporan perkembangan murid",
@@ -197,7 +205,7 @@
       "detail": "Cikgu memilih murid, kelas, subjek dan tarikh penilaian sebelum memasukkan atau mengimbas hasil. Reka bentuk borang dan medan sebenar masih perlu dipersetujui.",
       "input": "Murid, kelas, subjek dan tarikh penilaian.",
       "output": "Rekod penilaian dipautkan kepada murid yang dipilih.",
-      "pending": "Pilih kelas dan subjek untuk percubaan pertama.",
+      "pending": "Matematik Tahun 4 telah dipilih. Kumpulan murid dan topik percubaan masih perlu disahkan.",
       "taskId": "pilot"
     },
     {
