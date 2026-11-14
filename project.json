@@ -1,7 +1,7 @@
 {
   "title": "Projek Laporan Perkembangan Murid",
   "centre": "Perintis Didik",
-  "updatedAt": "2026-11-14T11:11:16.041Z",
+  "updatedAt": "2026-11-14T12:09:21.795353+00:00",
   "phases": [
     {
       "title": "Tetapkan keperluan",
@@ -175,6 +175,74 @@
       "content": "Borang atau scan perlu dinilai selepas menerima contoh input dan laporan. Cikgu kekal membuat pemarkahan dan menyemak hasil.",
       "author": "Cadangan untuk semakan",
       "date": "2026-11-14T11:11:16.041Z"
+    }
+  ],
+  "workflow": [
+    {
+      "title": "Cikgu tanda kertas",
+      "actor": "Cikgu",
+      "type": "teacher",
+      "summary": "Semak jawapan dan beri markah seperti biasa.",
+      "detail": "Cikgu membuat pemarkahan. Sistem tidak menggantikan pertimbangan cikgu atau menanda jawapan murid secara automatik.",
+      "input": "Kertas atau hasil latihan murid.",
+      "output": "Markah dan komen yang sudah ditanda cikgu.",
+      "pending": "Perlu contoh rekod atau kertas bertanda tanpa identiti murid.",
+      "taskId": "contoh-input"
+    },
+    {
+      "title": "Pilih nama murid",
+      "actor": "Cikgu",
+      "type": "teacher",
+      "summary": "Pastikan hasil direkod pada murid yang betul.",
+      "detail": "Cikgu memilih murid, kelas, subjek dan tarikh penilaian sebelum memasukkan atau mengimbas hasil. Reka bentuk borang dan medan sebenar masih perlu dipersetujui.",
+      "input": "Murid, kelas, subjek dan tarikh penilaian.",
+      "output": "Rekod penilaian dipautkan kepada murid yang dipilih.",
+      "pending": "Pilih kelas dan subjek untuk percubaan pertama.",
+      "taskId": "pilot"
+    },
+    {
+      "title": "Masukkan hasil",
+      "actor": "Cikgu",
+      "type": "teacher",
+      "summary": "Isi borang ringkas atau scan kertas bertanda.",
+      "detail": "Dua pilihan untuk dinilai: cikgu memasukkan markah melalui borang, atau mengimbas kertas yang sudah ditanda. Scan belum dibina atau diuji. Pilihan paling mudah diputuskan selepas semak contoh.",
+      "input": "Markah dan komen cikgu; jika scan dipilih, imej kertas bertanda.",
+      "output": "Maklumat untuk sistem menyusun draf laporan.",
+      "pending": "Borang atau scan? Cara input belum dipilih.",
+      "taskId": "cara-input"
+    },
+    {
+      "title": "Sistem susun draf",
+      "actor": "Sistem · cadangan",
+      "type": "system",
+      "summary": "Susun hasil menjadi rekod dan draf laporan.",
+      "detail": "Sistem dicadangkan untuk menyusun markah dan komen. Jika scan dipilih, ketepatan bacaan perlu diuji dahulu. Maklumat tidak jelas perlu ditanda untuk semakan, bukan diteka.",
+      "input": "Maklumat penilaian yang dimasukkan atau dibaca daripada kertas.",
+      "output": "Draf hasil yang belum disahkan cikgu.",
+      "pending": "Perlu bina dan uji selepas cara input dipersetujui.",
+      "taskId": "prototype"
+    },
+    {
+      "title": "Cikgu semak & sahkan",
+      "actor": "Cikgu",
+      "type": "teacher",
+      "summary": "Betulkan kesilapan sebelum hasil disimpan.",
+      "detail": "Cikgu menyemak murid yang dipilih, markah, topik dan komen. Jika ada kesilapan, betulkan dahulu dan semak semula. Simpan hasil hanya selepas pengesahan cikgu.",
+      "input": "Draf rekod dan laporan untuk disemak.",
+      "output": "Hasil yang telah disemak dan disahkan cikgu.",
+      "pending": "Setuju kriteria semakan dan uji ketepatan bersama.",
+      "taskId": "test"
+    },
+    {
+      "title": "Simpan & jana laporan",
+      "actor": "Sistem · cadangan",
+      "type": "system",
+      "summary": "Hasilkan laporan individu atau satu batch.",
+      "detail": "Selepas cikgu mengesahkan hasil, sistem dicadangkan untuk menyimpan rekod dan menghasilkan PDF. Laporan individu, batch dan maklumat topik masih perlu dimuktamadkan. Penghantaran kepada parents belum diautomatikkan.",
+      "input": "Hasil yang sudah disahkan dan format laporan yang dipersetujui.",
+      "output": "Cadangan: PDF perkembangan murid yang boleh disemak dan dikongsi oleh pihak pusat.",
+      "pending": "Perlu contoh laporan serta persetujuan kandungan dan format.",
+      "taskId": "contoh-laporan"
     }
   ]
 }

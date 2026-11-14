@@ -5,13 +5,15 @@ Website statik BM untuk melihat proses dan pending projek laporan perkembangan m
 ## Kemampuan
 
 - Ringkasan, lima fasa, butiran sembilan tugasan awal, pemilik dan status.
+- Rajah workflow enam langkah beranak panah; peranan cikgu/sistem, butiran input/hasil/pending dan pautan tugasan.
+- Dua paparan proses: cara penggunaan sistem yang dicadangkan dan pelan pembangunan projek.
 - Tapisan pemilik/status, carian dan paparan catatan/keputusan.
 - Mod cerah/gelap, pilihan disimpan pada peranti.
 - Pautan awam mesra telefon, tanpa akaun untuk melihat.
 
 ## Kemas kini
 
-`project.json` ialah rekod kandungan yang diterbitkan. Ubah status, pemilik, penerangan dan `updatedAt`, kemudian commit/push ke `main`. GitHub Pages menerbitkan semula website. Browser kedua melihat kandungan terbitan yang sama selepas refresh.
+`project.json` ialah rekod kandungan yang diterbitkan, termasuk enam langkah dalam `workflow`. Semua fungsi sistem dalam rajah ialah cadangan; rajah bukan automation yang sudah berjalan. Ubah status, pemilik, penerangan dan `updatedAt`, kemudian commit/push ke `main`. GitHub Pages menerbitkan semula website. Browser kedua melihat kandungan terbitan yang sama selepas refresh.
 
 Tiada perubahan status atau komen terus pada website. Jangan tambah borang yang berpura-pura menyimpan rekod bersama melalui localStorage. Jangan letak token GitHub dalam browser.
 
