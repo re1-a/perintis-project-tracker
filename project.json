@@ -191,7 +191,7 @@
     {
       "id": "review-completeness",
       "kind": "proposal",
-      "title": "Semakan kelengkapan: perancangan lengkap, pelaksanaan masih pending",
+      "title": "Semakan kelengkapan: keputusan utama dan pending diselaraskan",
       "content": "Semakan tracker menemui butiran helaian jawapan yang belum selaras pada langkah pemprosesan dan keputusan terbuka yang belum menjadi tugasan jelas. Input helaian kini diselaraskan hingga langkah bacaan sistem. Ditambah pending rujukan silibus, tempat proses/akaun Google/akses, kekerapan serta perkongsian laporan, dan cadangan semakan input berulang atau tak lengkap. Rajah utama dinaikkan ke atas halaman proses. Ini pembetulan perancangan; kaedah input, format laporan, kos dan kriteria pilot masih belum dipersetujui dengan Cikgu Awan.",
       "author": "Semakan projek",
       "date": "2026-11-14T14:53:44.771128+00:00"
