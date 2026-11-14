@@ -1,7 +1,7 @@
 {
   "title": "Projek Laporan Perkembangan Murid",
   "centre": "Perintis Didik",
-  "updatedAt": "2026-11-14T14:01:43.871215+00:00",
+  "updatedAt": "2026-11-14T14:32:41.966096+00:00",
   "phases": [
     {
       "title": "Tetapkan keperluan",
@@ -56,15 +56,15 @@
     },
     {
       "id": "contoh-input",
-      "title": "Sediakan contoh rekod atau kertas bertanda",
-      "description": "Contoh tanpa nama murid untuk faham apa yang cikgu sudah rekod. Cikgu kekal membuat pemarkahan; sistem hanya membantu menyusun atau membaca hasil yang sudah ditanda.",
+      "title": "Kongsi contoh rekod markah satu kelas",
+      "description": "Perlu contoh cara markah satu kelas direkod sekarang: Excel/Google Sheets, buku markah atau senarai kertas. Guna contoh tanpa identiti murid. Cukup rekod sedia ada dahulu; tidak perlu cikgu scan semua kertas atau menyediakan pemetaan kemahiran baharu.",
       "owner": "awan",
       "status": "waiting",
       "priority": "utama",
       "phase": 1,
       "dueDate": null,
       "createdAt": "2026-11-14T11:11:16.041Z",
-      "updatedAt": "2026-11-14T11:11:16.041Z"
+      "updatedAt": "2026-11-14T14:32:41.966096+00:00"
     },
     {
       "id": "pilot",
@@ -93,14 +93,14 @@
     {
       "id": "cara-input",
       "title": "Tentukan cara input paling mudah",
-      "description": "Rezz semak rekod sedia ada dan pilih cara paling ringan untuk mengambil tajuk latihan, tarikh serta markah diperoleh/penuh. Jangan wajibkan cikgu memecahkan markah mengikut kemahiran. Borang atau scan masih pilihan terbuka; bacaan kertas terperinci ialah tambahan yang perlu diuji.",
+      "description": "Selepas melihat contoh rekod, pilih cara paling ringan. Jika Excel/Sheets sudah ada, guna terus. Jika rekod satu kelas dalam buku/kertas, uji gambar satu halaman ke Drive dan semakan bacaan oleh Rezz/admin. Jika tiada rekod kelas, pertimbangkan Sheet kelas atau Form ringkas. Drive + Sheets ialah cadangan asas; akses, fail dan automation belum disediakan.",
       "owner": "rezz",
       "status": "waiting",
       "priority": "utama",
       "phase": 2,
       "dueDate": null,
       "createdAt": "2026-11-14T11:11:16.041Z",
-      "updatedAt": "2026-11-14T14:01:43.871215+00:00"
+      "updatedAt": "2026-11-14T14:32:41.966096+00:00"
     },
     {
       "id": "draft-report",
@@ -129,14 +129,14 @@
     {
       "id": "test",
       "title": "Uji aliran dan semak hasil bersama",
-      "description": "Uji ketepatan pemindahan markah, usaha cikgu dan kejelasan anggaran. Pastikan jumlah markah ujian umum tidak menghasilkan kesimpulan topik lemah. Rekod tidak lengkap atau bacaan kabur mesti ditanda untuk semakan. Tiada syarat cikgu tag kemahiran setiap soalan.",
+      "description": "Uji ketepatan pemindahan markah, masa cikgu dan kerja semakan Rezz/admin. Jika menggunakan gambar buku markah, uji nama/kod murid, markah penuh dan markah diperoleh pada satu contoh rekod kelas dahulu. Bacaan kabur mesti ditanda untuk semakan. Cikgu tidak diwajibkan tag kemahiran setiap soalan; rumusan akademik dirujuk kepada cikgu jika perlu.",
       "owner": "bersama",
       "status": "backlog",
       "priority": "normal",
       "phase": 4,
       "dueDate": null,
       "createdAt": "2026-11-14T11:11:16.041Z",
-      "updatedAt": "2026-11-14T14:01:43.871215+00:00"
+      "updatedAt": "2026-11-14T14:32:41.966096+00:00"
     },
     {
       "id": "go-live",
@@ -152,6 +152,14 @@
     }
   ],
   "notes": [
+    {
+      "id": "drive-sheets-process",
+      "kind": "decision",
+      "title": "Rekodkan cadangan Drive + Sheets dalam proses",
+      "content": "Rezz meminta cadangan Google Drive + Google Sheets dimasukkan ke tracker. Drive menyimpan bahan/laporan; Sheets menyimpan rekod markah. Input dipilih mengikut rekod sedia ada: guna Excel/Sheets terus, atau gambar halaman rekod satu kelas jika menggunakan buku/kertas. Form hanya jika sesuai. Rezz/admin dicadangkan menyemak bacaan meragukan. Contoh rekod kelas dan pilihan input masih pending; tiada sambungan Google atau automation diaktifkan.",
+      "author": "Rezz",
+      "date": "2026-11-14T14:32:41.966096+00:00"
+    },
     {
       "id": "low-workload-estimates",
       "kind": "decision",
@@ -188,7 +196,7 @@
       "id": "input",
       "kind": "proposal",
       "title": "Cara input masih terbuka",
-      "content": "Borang atau scan perlu dinilai selepas menerima contoh input dan laporan. Cikgu kekal membuat pemarkahan dan menyemak hasil.",
+      "content": "Cara ambil rekod dipilih selepas melihat contoh satu kelas. Guna Excel/Sheets terus jika ada; pertimbangkan gambar halaman rekod kelas ke Drive jika menggunakan buku/kertas. Sheet kelas atau Form ringkas hanya dipilih jika sesuai. Cikgu kekal membuat pemarkahan; input setiap murid tidak diwajibkan sebagai kerja tambahan.",
       "author": "Cadangan untuk semakan",
       "date": "2026-11-14T11:11:16.041Z"
     }
@@ -206,25 +214,25 @@
       "taskId": "contoh-input"
     },
     {
-      "title": "Pilih nama murid",
-      "actor": "Cikgu",
+      "title": "Kenal pasti rekod kelas",
+      "actor": "Cikgu / admin",
       "type": "teacher",
-      "summary": "Pastikan hasil direkod pada murid yang betul.",
-      "detail": "Cikgu memilih murid, kelas, subjek dan tarikh penilaian sebelum memasukkan atau mengimbas hasil. Reka bentuk borang dan medan sebenar masih perlu dipersetujui.",
-      "input": "Murid, kelas, subjek dan tarikh penilaian.",
-      "output": "Rekod penilaian dipautkan kepada murid yang dipilih.",
-      "pending": "Matematik Tahun 4 telah dipilih. Kumpulan murid dan topik percubaan masih perlu disahkan.",
+      "summary": "Tengok cara markah satu kelas direkod.",
+      "detail": "Percubaan ialah Matematik Tahun 4. Kenal pasti kelas, tajuk latihan dan cara markah kini disimpan. Jika nama dan markah sudah ada dalam senarai kelas, gunakan senarai itu; tidak perlu pilih setiap nama dan menaip semula markah.",
+      "input": "Contoh rekod kelas sedia ada, tanpa identiti murid sebenar semasa perancangan.",
+      "output": "Pilihan cara ambil rekod yang paling ringan.",
+      "pending": "Perlu contoh rekod kelas dan pengesahan kumpulan murid.",
       "taskId": "pilot"
     },
     {
-      "title": "Masukkan hasil",
-      "actor": "Cikgu",
+      "title": "Ambil rekod sedia ada",
+      "actor": "Cikgu / admin",
       "type": "teacher",
-      "summary": "Ambil tajuk latihan dan markah sedia ada.",
-      "detail": "Cikgu tidak perlu tag kemahiran setiap soalan. Cadangan minimum ialah mengambil nama murid, tajuk latihan atau topik jika tersedia, tarikh serta markah diperoleh dan markah penuh daripada rekod sedia ada. Komen cikgu ialah pilihan. Cara ambil rekod melalui borang atau scan masih belum dipilih.",
-      "input": "Nama murid, tajuk latihan/topik jika ada, tarikh, markah diperoleh dan markah penuh.",
-      "output": "Rekod ringkas berdasarkan kerja yang cikgu sudah buat.",
-      "pending": "Semak contoh rekod dan tentukan cara input paling ringan.",
+      "summary": "Guna Sheet terus, atau gambar rekod kelas.",
+      "detail": "Jika markah sudah dalam Excel/Google Sheets, guna rekod itu terus. Jika dalam buku/senarai kertas, cadangan ialah gambar atau scan satu halaman rekod kelas ke Drive. Jika belum ada rekod kelas, pilih Sheet kelas atau Form ringkas yang sesuai. Tiada syarat scan semua kertas murid atau tag kemahiran setiap soalan.",
+      "input": "Tajuk latihan/topik jika ada, tarikh, nama/kod murid, markah diperoleh dan penuh.",
+      "output": "Fail digital sedia ada atau imej rekod kelas dalam Drive untuk diproses.",
+      "pending": "Cara input akhir dipilih selepas contoh rekod dilihat.",
       "taskId": "cara-input"
     },
     {
@@ -232,32 +240,32 @@
       "actor": "Sistem · cadangan",
       "type": "system",
       "summary": "Ringkaskan prestasi berdasarkan bukti yang ada.",
-      "detail": "Cadangan sistem: susun markah dan tajuk latihan menjadi draf ringkasan. Markah ujian umum hanya menunjukkan prestasi keseluruhan. Jika latihan mempunyai topik yang jelas, sistem boleh menandakan topik yang mungkin perlukan perhatian. Ia bukan keputusan muktamad kelemahan murid. Jangan meneka topik daripada jumlah markah sahaja. Analisis soalan terperinci ialah tambahan kemudian, bukan kerja wajib cikgu.",
-      "input": "Rekod ringkas tajuk latihan, tarikh dan markah.",
-      "output": "Draf ringkasan prestasi dan petunjuk topik jika bukti mencukupi.",
-      "pending": "Semak contoh laporan dan pastikan label anggaran tidak mengelirukan.",
+      "detail": "Cadangan sistem/agent: import rekod digital atau cuba baca gambar rekod kelas, kemudian susun markah dan tajuk latihan menjadi draf. Bacaan tulisan tangan perlu diuji; nilai kabur mesti ditanda untuk semakan Rezz/admin, bukan diteka. Jumlah markah ujian umum hanya menunjukkan prestasi keseluruhan. Anggaran topik hanya jika tajuk latihan diketahui dan dilabel mungkin perlukan perhatian.",
+      "input": "Rekod Excel/Sheets atau gambar halaman markah dari folder Drive.",
+      "output": "Draf rekod tersusun dan ringkasan dengan bahagian meragukan ditanda.",
+      "pending": "Uji satu contoh rekod dan tentukan proses semakan sebelum automation dibina.",
       "taskId": "prototype"
     },
     {
-      "title": "Cikgu semak & sahkan",
-      "actor": "Cikgu",
+      "title": "Rezz / admin semak",
+      "actor": "Rezz / admin",
       "type": "teacher",
-      "summary": "Semak markah dan ringkasan sebelum pengesahan.",
-      "detail": "Cikgu semak ringkas bahawa rekod murid, markah dan ringkasan tidak tersalah. Tiada keperluan untuk tag kemahiran setiap soalan. Maklumat kabur perlu diperiksa sebelum simpan; anggaran topik kekal sebagai petunjuk, bukan keputusan muktamad. Usaha semakan perlu diukur dalam percubaan.",
-      "input": "Draf ringkasan daripada rekod sedia ada.",
-      "output": "Rekod dan ringkasan yang disemak untuk dikongsi.",
-      "pending": "Setuju kriteria semakan dan uji ketepatan bersama.",
+      "summary": "Semak bacaan kabur dan maklumat tak lengkap.",
+      "detail": "Rezz/admin dicadangkan menyemak bahawa nama/kod murid, tajuk, tarikh dan markah dipindahkan dengan betul. Cikgu tidak diwajibkan mengisi semula semua rekod. Rumusan akademik dirujuk kepada cikgu jika perlu; semakan bacaan data tidak dengan sendirinya mengesahkan penguasaan murid. Pemilik semakan dan usaha sebenar masih perlu dipersetujui.",
+      "input": "Draf rekod dan bacaan yang ditanda meragukan.",
+      "output": "Rekod yang disemak untuk disimpan; perkara akademik yang perlu penjelasan dirujuk kepada cikgu.",
+      "pending": "Sahkan siapa menyemak bacaan, dan uji masa semakan pada satu contoh.",
       "taskId": "test"
     },
     {
       "title": "Simpan & jana laporan",
       "actor": "Sistem · cadangan",
       "type": "system",
-      "summary": "Hasilkan laporan individu atau satu batch.",
-      "detail": "Selepas cikgu mengesahkan hasil, sistem dicadangkan untuk menyimpan rekod dan menghasilkan PDF. Laporan individu, batch dan maklumat topik masih perlu dimuktamadkan. Penghantaran kepada parents belum diautomatikkan.",
-      "input": "Hasil yang sudah disahkan dan format laporan yang dipersetujui.",
-      "output": "Cadangan: PDF perkembangan murid yang boleh disemak dan dikongsi oleh pihak pusat.",
-      "pending": "Perlu contoh laporan serta persetujuan kandungan dan format.",
+      "summary": "Cadangan: rekod di Sheets, PDF di Drive.",
+      "detail": "Cadangan selepas semakan: simpan senarai murid dan markah dalam Google Sheets, kemudian hasilkan PDF laporan ke Google Drive. Format individu/batch dan kandungan laporan masih perlu dipersetujui. Folder, fail, automation penjana PDF dan penghantaran kepada parents belum disediakan.",
+      "input": "Rekod yang sudah disemak dan format laporan yang dipersetujui.",
+      "output": "Cadangan: rekod markah di Sheets dan PDF laporan di Drive.",
+      "pending": "Sahkan format, folder, akses dan kandungan; bina hanya selepas contoh input/output dipersetujui.",
       "taskId": "contoh-laporan"
     }
   ],
@@ -287,5 +295,27 @@
       }
     ],
     "limits": "Anggaran perlu dibaca bersama konteks latihan. Kesukaran latihan boleh berbeza; markah meningkat sahaja belum membuktikan penguasaan bertambah. Tajuk tidak diketahui atau topik belum diuji ditanda belum ada bukti, bukan dianggap lemah."
+  },
+  "storageApproach": {
+    "title": "Cadangan asas: Google Drive + Google Sheets.",
+    "summary": "Gunakan rekod satu kelas yang cikgu memang sudah ada. Cara mengambil markah dipilih selepas melihat contoh rekod; cikgu tidak diwajibkan isi borang setiap murid atau scan semua kertas.",
+    "driveRole": "Google Drive: simpan bahan sumber dan laporan PDF.",
+    "sheetsRole": "Google Sheets: senarai murid dan rekod markah tersusun.",
+    "routes": [
+      {
+        "existing": "Markah sudah dalam Excel / Google Sheets",
+        "action": "Guna rekod terus; Rezz/admin susun atau import jika perlu. Tak perlu gambar atau scan."
+      },
+      {
+        "existing": "Markah satu kelas dalam buku / senarai kertas",
+        "action": "Gambar atau scan halaman rekod kelas → folder Drive → cadangan bacaan sistem → Rezz/admin semak → Sheets. Ketepatan tulisan tangan perlu diuji dahulu."
+      },
+      {
+        "existing": "Belum ada rekod markah satu kelas",
+        "action": "Pilih cara paling ringan: senarai kelas dalam Sheets, atau Google Form ringkas jika sesuai. Jangan mewajibkan kemasukan semula markah yang sudah direkod."
+      }
+    ],
+    "pending": "Perlu contoh bagaimana markah satu kelas direkod sekarang, tanpa nama sebenar murid. Selepas itu pilih cara input paling ringan dan sahkan siapa menyemak bacaan.",
+    "scope": "Ini cadangan proses untuk dibincang. Folder Drive, fail Sheets, borang, sambungan agent dan penjana laporan belum diwujudkan atau disambungkan oleh portal ini."
   }
 }
