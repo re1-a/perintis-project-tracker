@@ -1,0 +1,46 @@
+/* Supplemental rules for the GitHub Pages view. */
+[hidden]{display:none!important}
+.skip-link{position:fixed;left:12px;top:10px;z-index:100;transform:translateY(-150%);padding:10px 15px;background:#f5c518;color:#1a1a2e;border-radius:8px}
+.skip-link:focus{transform:translateY(0)}
+svg{vertical-align:middle;flex-shrink:0}
+.breadcrumbs svg{width:13px;height:13px}
+.project-mark svg{width:20px;height:20px}
+.sidebar-footer>span:last-child{color:#9692a6}
+.read-only-notice{display:flex;gap:9px;align-items:flex-start;background:#f0f1f7;border:1px solid #e4e5ee;border-radius:9px;padding:12px 15px;margin-bottom:21px;font-size:11px;color:#888495;line-height:1.8}
+.read-only-notice>svg{margin-top:3px;color:#9994a7}
+.read-only-notice strong{color:#625c73;font-weight:600}
+.report-sheet .sheet-top>span:nth-child(2){font-size:6px;letter-spacing:.6px}
+.hero-visual .sheet-icon svg{width:18px;height:18px}
+.phase-step{cursor:default}
+.notes-overview{padding:21px 24px}
+.notes-overview p{font-size:12px;color:#9690a3;line-height:1.9}
+.entry{background:transparent}
+.entry h3{font-size:13px;font-weight:550;margin:13px 0 0 30px;color:#6c637d}
+.entry .entry-content{font-size:12px}
+.proposal-label{background:#edf0f6;color:#8b91a8}
+.task-details{padding:24px 26px}
+.task-details>h3{font-size:17px;line-height:1.6;font-weight:550;margin-bottom:15px}
+.detail-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center;margin-bottom:20px}
+.detail-meta .badge{font-size:10px}
+.detail-owner{display:flex;align-items:center;gap:7px;font-size:11px;color:#9690a5}
+.detail-description{font-size:13px;line-height:1.9;color:#887e97;white-space:pre-wrap;overflow-wrap:anywhere}
+.detail-stage{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:18px 0 5px;margin:20px 0 0;border-top:1px solid var(--line)}
+.detail-stage dt{font-size:10px;color:#aaa0b7;margin-bottom:5px}
+.detail-stage dd{font-size:12px;margin:0;color:#83768f}
+.detail-footer{padding:17px 26px 23px;display:flex;justify-content:flex-end;border-top:1px solid var(--line)}
+.task-details .read-only-notice{margin-top:22px;margin-bottom:0}
+.share-link input{border:0;background:transparent;width:100%;min-width:0;font-size:11px;padding:0;min-height:25px}
+.refresh-button{flex-shrink:0}
+[data-theme="dark"] .read-only-notice{background:#242a3d;border-color:#3a4158;color:#b3b5cc}
+[data-theme="dark"] .read-only-notice strong{color:#e1dced}
+[data-theme="dark"] .entry h3{color:#d5d1e4}
+[data-theme="dark"] .proposal-label{background:#2c354c;color:#b5c3e0}
+[data-theme="dark"] .detail-description,[data-theme="dark"] .detail-stage dd{color:#c6c6dd}
+[data-theme="dark"] .detail-owner,[data-theme="dark"] .detail-stage dt,[data-theme="dark"] .notes-overview p{color:#a9aec5}
+@media(max-width:760px){.read-only-notice{font-size:10px;padding:11px 12px;gap:7px}.detail-stage{gap:12px}.task-details{padding:20px}.task-details>h3{font-size:16px}.detail-description{font-size:12px}.detail-footer{padding:16px 20px}.entry h3{font-size:12px}.notes-overview{padding:18px}.detail-stage dd{font-size:11px}.topbar-actions{gap:8px}.collaborators .avatar{width:23px;height:23px}.breadcrumbs{gap:6px}}
+
+.mobile-nav a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;font-size:8px;color:#aea1bc;border-radius:9px}
+.mobile-nav a.active{color:#9c8130;background:#faf6e9}
+[data-theme="dark"] .mobile-nav a{color:#a9abc0}
+[data-theme="dark"] .mobile-nav a.active{background:#3c3422;color:#edd078}
+@media(max-width:760px){.share-button>span:first-child{display:inline-flex}}

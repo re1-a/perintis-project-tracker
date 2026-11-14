@@ -1,0 +1,180 @@
+{
+  "title": "Projek Laporan Perkembangan Murid",
+  "centre": "Perintis Didik",
+  "updatedAt": "2026-11-14T11:11:16.041Z",
+  "phases": [
+    {
+      "title": "Tetapkan keperluan",
+      "short": "Keperluan",
+      "description": "Setuju apa laporan perlu tunjuk dan bahan yang diperlukan."
+    },
+    {
+      "title": "Semak contoh laporan",
+      "short": "Contoh",
+      "description": "Semak rupa laporan dan cara cikgu masukkan hasil."
+    },
+    {
+      "title": "Bina versi percubaan",
+      "short": "Bina",
+      "description": "Bina aliran terhad selepas contoh dan skop dipersetujui."
+    },
+    {
+      "title": "Uji bersama cikgu",
+      "short": "Uji",
+      "description": "Semak ketepatan, masa mengisi dan pembetulan yang diperlukan."
+    },
+    {
+      "title": "Mula penggunaan",
+      "short": "Guna",
+      "description": "Mulakan secara kecil selepas hasil ujian disahkan."
+    }
+  ],
+  "owners": {
+    "awan": "Cikgu Awan",
+    "rezz": "Rezz",
+    "bersama": "Bersama"
+  },
+  "statuses": {
+    "backlog": "Belum mula",
+    "progress": "Sedang dibuat",
+    "waiting": "Menunggu input",
+    "review": "Untuk semakan",
+    "done": "Siap"
+  },
+  "tasks": [
+    {
+      "id": "contoh-laporan",
+      "title": "Kongsi contoh laporan yang diinginkan",
+      "description": "Boleh beri pautan atau terangkan susunan laporan: markah, topik, komen cikgu dan cadangan latihan. Tak perlu format cantik dahulu. Elakkan maklumat peribadi murid dalam bahan perancangan.",
+      "owner": "awan",
+      "status": "waiting",
+      "priority": "utama",
+      "phase": 1,
+      "dueDate": null,
+      "createdAt": "2026-11-14T11:11:16.041Z",
+      "updatedAt": "2026-11-14T11:11:16.041Z"
+    },
+    {
+      "id": "contoh-input",
+      "title": "Sediakan contoh rekod atau kertas bertanda",
+      "description": "Contoh tanpa nama murid untuk faham apa yang cikgu sudah rekod. Cikgu kekal membuat pemarkahan; sistem hanya membantu menyusun atau membaca hasil yang sudah ditanda.",
+      "owner": "awan",
+      "status": "waiting",
+      "priority": "utama",
+      "phase": 1,
+      "dueDate": null,
+      "createdAt": "2026-11-14T11:11:16.041Z",
+      "updatedAt": "2026-11-14T11:11:16.041Z"
+    },
+    {
+      "id": "pilot",
+      "title": "Pilih kelas dan subjek untuk percubaan",
+      "description": "Cadangan: satu kelas dan satu subjek dahulu. Bilangan murid, tempoh percubaan dan jadual masih perlu dipersetujui bersama.",
+      "owner": "awan",
+      "status": "backlog",
+      "priority": "normal",
+      "phase": 1,
+      "dueDate": null,
+      "createdAt": "2026-11-14T11:11:16.041Z",
+      "updatedAt": "2026-11-14T11:11:16.041Z"
+    },
+    {
+      "id": "medan-laporan",
+      "title": "Setuju maklumat wajib dalam laporan",
+      "description": "Bincangkan markah, topik, komen cikgu dan tempoh laporan. Rekod keputusan dalam ruang Keputusan selepas kedua-dua pihak bersetuju.",
+      "owner": "bersama",
+      "status": "backlog",
+      "priority": "normal",
+      "phase": 1,
+      "dueDate": null,
+      "createdAt": "2026-11-14T11:11:16.041Z",
+      "updatedAt": "2026-11-14T11:11:16.041Z"
+    },
+    {
+      "id": "cara-input",
+      "title": "Tentukan cara input paling mudah",
+      "description": "Rezz semak contoh dahulu. Borang ringkas atau scan kertas masih pilihan terbuka. Scan belum dibina atau diuji; keputusan bergantung pada contoh dan usaha semakan cikgu.",
+      "owner": "rezz",
+      "status": "waiting",
+      "priority": "utama",
+      "phase": 2,
+      "dueDate": null,
+      "createdAt": "2026-11-14T11:11:16.041Z",
+      "updatedAt": "2026-11-14T11:11:16.041Z"
+    },
+    {
+      "id": "draft-report",
+      "title": "Sediakan contoh rupa laporan",
+      "description": "Selepas menerima contoh dan medan wajib, Rezz sediakan contoh menggunakan data rekaan untuk semakan Cikgu Awan. Laporan individu atau batch perlu disahkan dalam skop.",
+      "owner": "rezz",
+      "status": "backlog",
+      "priority": "normal",
+      "phase": 2,
+      "dueDate": null,
+      "createdAt": "2026-11-14T11:11:16.041Z",
+      "updatedAt": "2026-11-14T11:11:16.041Z"
+    },
+    {
+      "id": "prototype",
+      "title": "Bina versi percubaan yang dipersetujui",
+      "description": "Bermula selepas skop dan contoh laporan diluluskan. Portal projek ini bukan bukti sistem laporan murid sudah siap.",
+      "owner": "rezz",
+      "status": "backlog",
+      "priority": "normal",
+      "phase": 3,
+      "dueDate": null,
+      "createdAt": "2026-11-14T11:11:16.041Z",
+      "updatedAt": "2026-11-14T11:11:16.041Z"
+    },
+    {
+      "id": "test",
+      "title": "Uji aliran dan semak hasil bersama",
+      "description": "Cikgu semak ketepatan hasil, masa mengisi dan pembetulan diperlukan. Kriteria lulus dan tarikh ujian belum ditetapkan.",
+      "owner": "bersama",
+      "status": "backlog",
+      "priority": "normal",
+      "phase": 4,
+      "dueDate": null,
+      "createdAt": "2026-11-14T11:11:16.041Z",
+      "updatedAt": "2026-11-14T11:11:16.041Z"
+    },
+    {
+      "id": "go-live",
+      "title": "Putuskan sama ada sedia untuk digunakan",
+      "description": "Selepas ujian, sahkan skop penggunaan, akses, panduan dan harga servis. Tiada tarikh pelancaran atau harga dimuktamadkan sekarang.",
+      "owner": "bersama",
+      "status": "backlog",
+      "priority": "normal",
+      "phase": 5,
+      "dueDate": null,
+      "createdAt": "2026-11-14T11:11:16.041Z",
+      "updatedAt": "2026-11-14T11:11:16.041Z"
+    }
+  ],
+  "notes": [
+    {
+      "id": "scope",
+      "kind": "decision",
+      "title": "Fokus pada laporan perkembangan murid",
+      "content": "Rezz memilih untuk meneruskan projek laporan perkembangan murid. Portal ini menghimpunkan proses dan tindakan; sistem laporan murid belum dibina.",
+      "author": "Rezz",
+      "date": "2026-11-14T11:11:16.041Z"
+    },
+    {
+      "id": "hosting",
+      "kind": "decision",
+      "title": "Gunakan GitHub untuk portal projek",
+      "content": "Paparan bersama melalui GitHub Pages, tanpa login ChatGPT. Kemas kini diterbitkan melalui fail projek; perubahan terus melalui website belum tersedia.",
+      "author": "Rezz",
+      "date": "2026-11-14T11:11:16.041Z"
+    },
+    {
+      "id": "input",
+      "kind": "proposal",
+      "title": "Cara input masih terbuka",
+      "content": "Borang atau scan perlu dinilai selepas menerima contoh input dan laporan. Cikgu kekal membuat pemarkahan dan menyemak hasil.",
+      "author": "Cadangan untuk semakan",
+      "date": "2026-11-14T11:11:16.041Z"
+    }
+  ]
+}
