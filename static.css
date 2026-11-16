@@ -151,3 +151,8 @@ svg{vertical-align:middle;flex-shrink:0}
 .storage-pending{margin-top:16px}
 
 .workflow-panel + .storage-panel{margin-top:22px}
+
+.demo-downloads{display:flex;flex-wrap:wrap;gap:9px;margin:18px 0}
+.demo-panel{border-color:#cfc5a1}
+[data-theme="dark"] .demo-panel{border-color:#79693b}
+@media(max-width:760px){.demo-downloads{display:grid;grid-template-columns:1fr}.demo-downloads .button{justify-content:flex-start}}

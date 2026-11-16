@@ -1,7 +1,7 @@
 {
   "title": "Projek Laporan Perkembangan Murid",
   "centre": "Perintis Didik",
-  "updatedAt": "2026-11-14T14:53:44.771128+00:00",
+  "updatedAt": "2026-11-16T12:35:29.033130+00:00",
   "phases": [
     {
       "title": "Tetapkan keperluan",
@@ -185,9 +185,29 @@
       "dueDate": null,
       "createdAt": "2026-11-14T14:53:44.771128+00:00",
       "updatedAt": "2026-11-14T14:53:44.771128+00:00"
+    },
+    {
+      "id": "demo-markah-rekaan",
+      "title": "Sediakan contoh markah dan laporan rekaan",
+      "description": "Siap untuk semakan: 12 kod murid, lima latihan, 60 rekod rekaan; Excel, CSV, PDF rekod kelas dan contoh laporan M04. Peratus diperiksa; markah kosong tidak dianggap sifar. Semua tarikh dan markah dicipta. Contoh ini tidak menggantikan ujian bacaan kertas sebenar, sambungan Google atau pengesahan format oleh Cikgu Awan.",
+      "owner": "rezz",
+      "status": "done",
+      "priority": "normal",
+      "phase": 2,
+      "dueDate": null,
+      "createdAt": "2026-11-16T12:35:29.033130+00:00",
+      "updatedAt": "2026-11-16T12:35:29.033130+00:00"
     }
   ],
   "notes": [
+    {
+      "id": "demo-marks-created",
+      "kind": "decision",
+      "title": "Contoh markah dan laporan rekaan untuk cuba aliran",
+      "content": "Atas permintaan Rezz, disediakan 12 kod murid rekaan dan lima latihan (60 rekod): 59 markah berangka, satu tidak hadir dan satu sifar disahkan. Ada Excel yang boleh diubah, CSV import, PDF rekod kelas dan contoh laporan M04. Semua input dan tarikh rekaan. Ini contoh fail/hasil daripada data tersusun, bukan bukti OCR atau automation Google sudah berjalan. Rekod sebenar dan pengesahan Cikgu Awan masih pending.",
+      "author": "Permintaan Rezz",
+      "date": "2026-11-16T12:35:29.033130+00:00"
+    },
     {
       "id": "review-completeness",
       "kind": "proposal",
@@ -373,5 +393,25 @@
     ],
     "pending": "Perlu contoh rekod markah satu kelas dan satu latihan pendek Matematik Tahun 4. Bandingkan rekod kelas dengan helaian jawapan: keselesaan murid, padanan nombor soalan, ruang mengira, masa menanda, bilangan halaman scan dan usaha semakan Rezz/admin. Cara input, akaun Google dan tempat automation berjalan belum dipilih.",
     "scope": "Ini cadangan proses sahaja. Helaian jawapan belum direka atau diuji; folder Drive, fail Sheets, borang, sambungan agent dan penjana laporan belum diwujudkan atau disambungkan oleh portal ini."
+  },
+  "demoMaterials": {
+    "title": "Contoh markah olok-olok dah tersedia.",
+    "description": "12 kod murid rekaan, lima latihan dan 60 rekod. Termasuk satu kes tidak hadir (markah kosong) dan satu sifar yang disahkan. Semua nama/kod, tarikh serta markah ialah rekaan untuk demo, bukan data Perintis sebenar.",
+    "files": [
+      {
+        "label": "Rekod kelas (Excel)",
+        "href": "./examples/markah-rekaan-matematik-tahun4.xlsx"
+      },
+      {
+        "label": "Rekod + laporan M04 (PDF)",
+        "href": "./examples/contoh-rekod-dan-laporan-rekaan.pdf"
+      },
+      {
+        "label": "Data import (CSV)",
+        "href": "./examples/markah-rekaan-import.csv"
+      }
+    ],
+    "example": "Contoh M04: Pecahan 4/20 (20%) ialah petunjuk untuk semakan dalam latihan itu. Ujian campuran 58/100 hanya menunjukkan prestasi keseluruhan.",
+    "limit": "Fail contoh dan peratus sudah disemak. Ini belum menguji bacaan tulisan tangan/OCR, sambungan Google atau proses laporan automatik. Contoh rekod sebenar daripada cikgu masih pending."
   }
 }
