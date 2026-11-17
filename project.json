@@ -1,7 +1,7 @@
 {
   "title": "Projek Laporan Perkembangan Murid",
   "centre": "Perintis Didik",
-  "updatedAt": "2026-11-16T12:35:29.033130+00:00",
+  "updatedAt": "2026-11-17T07:19:58.172490+00:00",
   "phases": [
     {
       "title": "Tetapkan keperluan",
@@ -201,6 +201,12 @@
   ],
   "notes": [
     {
+      "id": "demo-liputan-penuh",
+      "title": "Demo diperluas kepada semua bidang utama Tahun 4",
+      "date": "2026-11-17",
+      "content": "Excel dan CSV baharu mengandungi 132 rekod rekaan: 12 murid, 10 latihan bertopik dan satu ujian campuran. Semua 8 bidang utama DSKP diwakili. Fail demo asal dan PDF lima latihan dikekalkan. Ini bukan liputan terperinci setiap standard pembelajaran atau pengesahan penguasaan."
+    },
+    {
       "id": "demo-marks-created",
       "kind": "decision",
       "title": "Contoh markah dan laporan rekaan untuk cuba aliran",
@@ -395,23 +401,34 @@
     "scope": "Ini cadangan proses sahaja. Helaian jawapan belum direka atau diuji; folder Drive, fail Sheets, borang, sambungan agent dan penjana laporan belum diwujudkan atau disambungkan oleh portal ini."
   },
   "demoMaterials": {
-    "title": "Contoh markah olok-olok dah tersedia.",
-    "description": "12 kod murid rekaan, lima latihan dan 60 rekod. Termasuk satu kes tidak hadir (markah kosong) dan satu sifar yang disahkan. Semua nama/kod, tarikh serta markah ialah rekaan untuk demo, bukan data Perintis sebenar.",
+    "title": "Demo markah: liputan semua bidang Tahun 4.",
+    "description": "12 kod murid rekaan, 10 latihan bertopik dan satu ujian campuran (132 rekod). Semua lapan bidang utama DSKP diwakili. Satu tidak hadir kekal kosong; satu sifar disahkan. Semua kod, tarikh dan markah ialah rekaan.",
     "files": [
       {
-        "label": "Rekod kelas (Excel)",
-        "href": "./examples/markah-rekaan-matematik-tahun4.xlsx"
+        "label": "Markah liputan penuh (Excel)",
+        "href": "./examples/markah-liputan-penuh-matematik-tahun4.xlsx"
       },
       {
-        "label": "Rekod + laporan M04 (PDF)",
+        "label": "Contoh laporan asal · 5 latihan (PDF)",
         "href": "./examples/contoh-rekod-dan-laporan-rekaan.pdf"
       },
       {
-        "label": "Data import (CSV)",
-        "href": "./examples/markah-rekaan-import.csv"
+        "label": "Import liputan penuh (CSV)",
+        "href": "./examples/markah-liputan-penuh-import.csv"
       }
     ],
     "example": "Contoh M04: Pecahan 4/20 (20%) ialah petunjuk untuk semakan dalam latihan itu. Ujian campuran 58/100 hanya menunjukkan prestasi keseluruhan.",
-    "limit": "Fail contoh dan peratus sudah disemak. Ini belum menguji bacaan tulisan tangan/OCR, sambungan Google atau proses laporan automatik. Contoh rekod sebenar daripada cikgu masih pending."
+    "limit": "Liputan ini mengikut bidang utama, bukan bukti setiap kemahiran kecil telah diuji. Satu latihan tidak menentukan penguasaan atau TP. Untuk penggunaan sebenar: topik belum diuji = Belum dinilai; perlukan beberapa rekod bertarikh untuk melihat perkembangan. PDF asal masih contoh lima latihan. Ujian OCR, sambungan Google dan contoh sebenar daripada cikgu masih pending.",
+    "coverage": [
+      "Nombor bulat dan operasi asas",
+      "Pecahan, perpuluhan dan peratus",
+      "Wang",
+      "Masa dan waktu",
+      "Ukuran dan sukatan",
+      "Ruang",
+      "Koordinat, nisbah dan kadaran",
+      "Pengurusan data"
+    ],
+    "source": "https://asiemodel.net/wp-content/uploads/2022/08/DSKP-KSSR-SEMAKAN-2017-MATEMATIK-TAHUN-4.pdf"
   }
 }
